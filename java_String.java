@@ -9,7 +9,17 @@ public class JavaString {
        
         //ejercicio 3
         System.out.println(txt.toUpperCase());
+        //Ejercicoi 4
+        String firsName="Jhon";
+        String lastName="Doe";
+        System.out.println(firsName+lastName);
         
+        //Ejercicio 5
+        System.out.println(firsName.concat(lastName));
+        
+        //Ejercicio 6
+        String tx="Hello Everybody";
+        System.out.println(tx.indexOf("e"));
 
     } 
 }
