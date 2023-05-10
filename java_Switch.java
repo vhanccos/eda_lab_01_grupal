@@ -11,6 +11,18 @@ public class JavaSwitch {
                System.out.println("Sunday");
                break;
        }
+	//Ejercicio 2
+       
+       switch(day){
+           case 1:
+               System.out.println("Saturday");
+               break;
+           case 2:
+               System.out.println("Sunday");
+               break;
+           default:
+               System.out.println("Weekend");
+       }
        
 
 
